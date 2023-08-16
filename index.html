@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="bootstrap-5.2.3-dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Capital</title>
+</head>
+
+<body>
+  <!-- Header section -->
+  <div class="header-section d-flex justify-content-between align-items-center px-2 py-2">
+    <!-- Left side -->
+    <div class="d-flex flex-column flex-md-row movement">
+      <a href="#" class="mr-4 text-muted px-2">About Us</a>
+      <a href="#" class="mr-4 text-muted px-2">Privacy</a>
+      <a href="#" class="mr-4 text-muted px-2">FAQ</a>
+      <a href="#" class="text-muted px-2">Careers</a>
+    </div>
+    <!-- Right side -->
+    <div class="d-flex flex-column flex-md-row movement2 mt-3 mt-md-0">
+      <span class="header-icons px-2">
+        <i class="fa-regular fa-heart"></i> My Wishlist |
+      </span>
+      <span class="header-icons px-2">
+        <i class="fa-solid fa-truck-ramp-box"></i> Track Your Order |
+      </span>
+      <span class="header-icons px-2">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-youtube"></i>
+      </span>
+    </div>
+  </div>
+
+  <hr />
+
+  <!-- NavBar setion -->
+  <nav class="navbar navbar-expand-lg navbar-light p-5 navBar">
+    <div class="container-fluid">
+      <!-- logo -->
+      <a class="navbar-brand" href="#">
+        <img src="images/logo.png" alt="" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Men</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Women</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Baby Collection</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Pages
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Login</a></li>
+              <li><a class="dropdown-item" href="#">Cart</a></li>
+              <li><a class="dropdown-item" href="#">Product Details</a></li>
+              <li><a class="dropdown-item" href="#">Product Checkout</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Blog
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Blog</a></li>
+              <li><a class="dropdown-item" href="#">Element</a></li>
+              <li><a class="dropdown-item" href="#">Blog Details</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">
+              Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#"> </a>
+          </li>
+          <!-- icons -->
+          <li class="nav-item icons">
+            <a class="nav-link" href="#">
+              <i class="fa-solid fa-magnifying-glass icon"></i>
+            </a>
+          </li>
+          <li class="nav-item icons">
+            <a class="nav-link" href="#">
+              <i class="fa-solid fa-user icon"></i>
+            </a>
+          </li>
+          <li class="nav-item icons">
+            <a class="nav-link" href="#">
+              <i class="fa-solid fa-cart-shopping icon"></i>
+              <span class="notification">1</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Shop Now section  -->
+  <div class="container1" style="
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        background-color: black;
+        margin-top: -12px;
+      ">
+    <div class="type" style="text-align: center; margin-top: 25px; background-color: black">
+      <p style="background-color: black">
+        Sale Up To 50% Biggest Discounts. Hurry! Limited Period Offer
+        <b><a href="" class="shop">Shop Now</a></b>
+      </p>
+    </div>
+  </div>
+
+  <!-- Slider -->
+  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/h1_hero1.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption one">
+          <h5 class="title1">Fashion Sale</h5>
+          <h4 class="title2">Minimal Menz Style </h4>
+          <p class="paragraph">Concsectetur adipisicing elit . Laborum fuga <br>
+            incidunt laboriosam voluptas iure, delectus <br>
+            dignissimos facilis neque nulla earum.</p>
+          <button class="btn">SHOP NOW </button>
+        </div>
+      </div>
+      <div class="carousel-item active">
+        <img src="images/h1_hero2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption two">
+          <h5 class="title1">Fashion Sale</h5>
+          <h4 class="title2">Minimal Menz Style </h4>
+          <p class="paragraph">Concsectetur adipisicing elit . Laborum fuga <br>
+            incidunt laboriosam voluptas iure, delectus <br>
+            dignissimos facilis neque nulla earum.</p>
+          <button class="btn">SHOP NOW </button>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <br />
+  <br />
+  <br />
+
+  <!-- Fashion section -->
+  <div class="center-container">
+    <div class="card-group">
+      <div class="card">
+        <div class="card-inner">
+          <div class="image-container">
+            <img src="images/items1.jpg" class="card-img-top" alt="..." />
+
+            <div class="overlay">
+              <div class="overlay-content">Shop Now</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-inner">
+          <div class="image-container">
+            <img src="images/items2.jpg" class="card-img-top" alt="..." />
+            <div class="overlay">
+              <div class="overlay-content">Shop Now</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-inner">
+          <div class="image-container">
+            <img src="images/items3.jpg" class="card-img-top" alt="..." />
+            <div class="overlay">
+              <div class="overlay-content">Shop Now</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Trending this week section -->
+
+  <div class="header-section d-flex justify-content-between align-items-center px-2 py-2">
+    <!-- Left side -->
+    <div class="d-flex flex-column flex-md-row movement">
+      <h4 class="mr-4 text fw-bold">Trending this week</h4>
+    </div>
+
+    <!-- Right side -->
+    <div class="d-flex flex-column flex-md-row movement2 mt-3 mt-md-0">
+      <a href="#" class="category-link mx-3">Men</a>
+      <a href="#" class="category-link mx-3">Women</a>
+      <a href="#" class="category-link mx-3">Baby</a>
+      <a href="#" class="category-link mx-3">Fashion</a>
+    </div>
+  </div>
+
+  <hr class="trending" />
+
+  <!-- products slider -->
+  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="1000">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="d-flex justify-content-center">
+          <div class="row ">
+            <div class="col-md-2 col-lg-3">
+              <div class="card">
+                <img src="images/latest1.jpg" class="card-img-top" alt="Card 1">
+                <div class="card-body">
+                  <h5 class="card-title">Cashmere Tank + Bag</h5>
+                  <p class="card-text"><b>$98.00</b> &nbsp; &nbsp; <del> $120.00</del></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="card">
+                <img src="images/latest2.jpg" class="card-img-top" alt="Card 1">
+                <div class="card-body">
+                  <h5 class="card-title">Cashmere Tank + Bag</h5>
+                  <p class="card-text"><b>$98.00</b> &nbsp; &nbsp; <del> $120.00</del></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="card">
+                <img src="images/latest3.jpg" class="card-img-top" alt="Card 1">
+                <div class="card-body">
+                  <h5 class="card-title">Cashmere Tank + Bag</h5>
+                  <p class="card-text"><b>$98.00</b> &nbsp; &nbsp; <del> $120.00</del></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="card">
+                <img src="images/latest4.jpg" class="card-img-top" alt="Card 1">
+                <div class="card-body">
+                  <h5 class="card-title">Cashmere Tank + Bag</h5>
+                  <p class="card-text"><b>$98.00</b> &nbsp; &nbsp; <del> $120.00</del></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="d-flex justify-content-center">
+          <div class="row">
+            <div class="col-md-6 col-lg-3">
+              <div class="card">
+                <img src="images/latest4.jpg" class="card-img-top" alt="Card 1">
+                <div class="card-body">
+                  <h5 class="card-title">Cashmere Tank + Bag</h5>
+                  <p class="card-text"><b>$98.00</b>&nbsp; &nbsp; <del> $120.00</del></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="card">
+                <img src="images/latest3.jpg" class="card-img-top" alt="Card 1">
+                <div class="card-body">
+                  <h5 class="card-title">Cashmere Tank + Bag</h5>
+                  <p class="card-text"><b>$98.00</b> &nbsp; &nbsp; <del> $120.00</del></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="card">
+                <img src="images/latest2.jpg" class="card-img-top" alt="Card 1">
+                <div class="card-body">
+                  <h5 class="card-title">Cashmere Tank + Bag</h5>
+                  <p class="card-text"><b>$98.00</b> &nbsp; &nbsp; <del> $120.00</del></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="card">
+                <img src="images/latest1.jpg" class="card-img-top" alt="Card 1">
+                <div class="card-body">
+                  <h5 class="card-title">Cashmere Tank + Bag</h5>
+                  <p class="card-text"><b>$98.00</b>&nbsp; &nbsp; <del> $120.00</del></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Add more carousel items here -->
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+
+  <!-- Reviews  -->
+
+  <div class="container-fluid  mt-5 reviews">
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="text-center">
+            <h4 class="colored">Customer Testimonial</h4>
+            <p class="colored">Everybody is different, which is why we offer styles for every body. <br>
+              Laborum fuga incidunt laboriosam voluptas iure, delectus dignissimos <br> facilis neque nulla earum</p>
+            <img src="images/founder-img.png" alt="" class="colored">
+            <h4 class="colored">Petey Cruiser</h4>
+            <h6 class="colored">Designer at Colorlib</h6>
+          </div>
+
+        </div>
+        <div class="carousel-item">
+          <div class="text-center">
+            <h4 class="colored">Customer Testimonial</h4>
+            <p class="colored">Everybody is different, which is why we offer styles for every body. <br>
+              Laborum fuga incidunt laboriosam voluptas iure, delectus dignissimos <br> facilis neque nulla earum</p>
+            <img src="images/founder-img.png" alt="" class="colored">
+            <h4 class="colored">Petey Cruiser</h4>
+            <h6 class="colored">Designer at Colorlib</h6>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev previous " type="button" data-bs-target="#myCarousel" data-bs-slide="prev" ">
+        <span class=" carousel-control-prev-icon previous" aria-hidden="true"></span>
+        <span class="visually-hidden previous">Previous</span>
+      </button>
+      <button class="carousel-control-next next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon next" aria-hidden="true"></span>
+        <span class="visually-hidden next">Next</span>
+      </button>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+
+
+  <!-- another products -->
+  <h4 class="text-center tittle">Featured Products</h4>
+  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="1000">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="d-flex justify-content-center">
+          <div class="row ">
+            <div class="col-md-2 col-lg-3">
+              <div class="card">
+                <img src="images/latest5.jpg" class="card-img-top" alt="Card 1">
+                <div class="card-body">
+                  <h5 class="card-title">Cashmere Tank + Bag</h5>
+                  <p class="card-text"><b>$98.00</b> &nbsp; &nbsp; <del> $120.00</del></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="card">
+                <img src="images/latest6.jpg" class="card-img-top" alt="Card 1">
+                <div class="card-body">
+                  <h5 class="card-title">Cashmere Tank + Bag</h5>
+                  <p class="card-text"><b>$98.00</b> &nbsp; &nbsp; <del> $120.00</del></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="card">
+                <img src="images/latest7.jpg" class="card-img-top" alt="Card 1">
+                <div class="card-body">
+                  <h5 class="card-title">Cashmere Tank + Bag</h5>
+                  <p class="card-text"><b>$98.00</b> &nbsp; &nbsp; <del> $120.00</del></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="card">
+                <img src="images/latest8.jpg" class="card-img-top" alt="Card 1">
+                <div class="card-body">
+                  <h5 class="card-title">Cashmere Tank + Bag</h5>
+                  <p class="card-text"><b>$98.00</b> &nbsp; &nbsp; <del> $120.00</del></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="d-flex justify-content-center">
+          <div class="row">
+            <div class="col-md-6 col-lg-3">
+              <div class="card">
+                <img src="images/latest8.jpg" class="card-img-top" alt="Card 1">
+                <div class="card-body">
+                  <h5 class="card-title">Cashmere Tank + Bag</h5>
+                  <p class="card-text"><b>$98.00</b>&nbsp; &nbsp; <del> $120.00</del></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="card">
+                <img src="images/latest7.jpg" class="card-img-top" alt="Card 1">
+                <div class="card-body">
+                  <h5 class="card-title">Cashmere Tank + Bag</h5>
+                  <p class="card-text"><b>$98.00</b> &nbsp; &nbsp; <del> $120.00</del></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="card">
+                <img src="images/latest6.jpg" class="card-img-top" alt="Card 1">
+                <div class="card-body">
+                  <h5 class="card-title">Cashmere Tank + Bag</h5>
+                  <p class="card-text"><b>$98.00</b> &nbsp; &nbsp; <del> $120.00</del></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="card">
+                <img src="images/latest5.jpg" class="card-img-top" alt="Card 1">
+                <div class="card-body">
+                  <h5 class="card-title">Cashmere Tank + Bag</h5>
+                  <p class="card-text"><b>$98.00</b>&nbsp; &nbsp; <del> $120.00</del></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Add more carousel items here -->
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <!-- latest new -->
+  <h4 class="text-center tittle1">Latest News</h4>
+  <div class="container latest">
+    <div class="row ">
+      <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+          <img src="images/blog1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h6 class="fashion">Fashion Tips</h6>
+            <h3 class="card-title fashion_question">What Curling Irons Are The Best Ones</h3>
+            <p class="card-text">Consectetur adipisicing elit. Laborum fuga incidunt laboriosam voluptas iure,
+              delectus..</p>
+            <a href="" class="readmore">Read More</a>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+          <img src="images/blog2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h6 class="fashion">Fashion Tips</h6>
+            <h5 class="card-title fashion_question">Vogue's Ultimate Guide To Autumn / Winter 2019 Shoes </h5>
+            <p class="card-text">Consectetur adipisicing elit. Laborum fuga incidunt laboriosam voluptas iure,
+              delectus..</p>
+            <a href="" class="readmore">Read More</a>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+          <img src="images/blog3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h6 class="fashion">Fashion Tips</h6>
+            <h5 class="card-title fashion_question">What Curling Irons Are The Best Ones</h5>
+            <p class="card-text">Consectetur adipisicing elit. Laborum fuga incidunt laboriosam voluptas iure,
+              delectus..</p>
+            <a href="" class="readmore">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <br>
+  <br>
+  <br>
+
+  <!-- Services -->
+  <div class="container services">
+    <div class="row justify-content-center">
+      <div class="col-md-3">
+        <div class="card">
+          <img src="images/services1.svg" class="card-img-top" alt="..." style="max-height: 50px;">
+          <div class="card-body">
+            <h5 class="card-title">Fast & Free Delivery</h5>
+            <p class="card-text">Free delivery on all orders</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card">
+          <img src="images/services2.svg" class="card-img-top" alt="..." style="max-height: 50px;">
+          <div class="card-body">
+            <h5 class="card-title">Secure Payment</h5>
+            <p class="card-text">Free delivery on all orders</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card">
+          <img src="images/services3.svg" class="card-img-top" alt="..." style="max-height: 50px;">
+          <div class="card-body">
+            <h5 class="card-title">Money Back Guarantee</h5>
+            <p class="card-text">Free delivery on all orders</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card">
+          <img src="images/services4.svg" class="card-img-top" alt="..." style="max-height: 50px;">
+          <div class="card-body">
+            <h5 class="card-title">Online Support</h5>
+            <p class="card-text">Free delivery on all orders</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <!-- Footer -->
+  <footer class="text-center footer_colored">
+    <!-- Grid container -->
+    <div class="container p-4 footer_colored_inner">
+
+      <!-- Section: Social media -->
+      <section class="mb-4 social-media">
+        <!-- Facebook -->
+        <i class="fa-brands fa-facebook social-media"></i>
+
+        <!-- Twitter -->
+        <i class="fa-brands fa-twitter social-media"></i>
+
+        <!-- Google -->
+        <i class="fa-brands fa-google social-media"></i>
+
+        <!-- Instagram -->
+        <i class="fa-brands fa-instagram social-media"></i>
+
+        <!-- Linkedin -->
+        <i class="fa-brands fa-linkedin social-media"></i>
+        </a>
+        <!-- youtube -->
+        <i class="fa-brands fa-youtube social-media"></i>
+        </a>
+      </section>
+      <!-- Section: Social media -->
+
+
+      <!-- Section: Form -->
+      <section class="forms">
+        <form action="" class="forms">
+          <!--Grid row-->
+          <div class="row d-flex justify-content-center forms">
+            <!--Grid column-->
+            <div class="col-auto forms">
+              <p class="pt-2 forms">
+                <strong class="forms">Sign up for our newsletter</strong>
+              </p>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-md-5 col-12 forms">
+              <!-- Email input -->
+              <div class="form-outline mb-4 forms">
+                <input type="email" id="form5Example2" class="form-control" />
+                <label class="form-label forms" for="form5Example2">Email address</label>
+              </div>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-auto forms">
+
+              <!-- Submit button -->
+              <button type="submit" class="btn btn-primary mb-4 forms1">
+                Subscribe
+              </button>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </form>
+      </section>
+      <hr class="trending" />
+      <!-- Section: Links -->
+      <section class="forms">
+        <!--Grid row-->
+        <div class="row forms">
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0 forms">
+            <img src="images/logo.png" alt="" class="forms" style="color: aliceblue;">
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0 forms">
+            <h5 class="text-uppercase forms">Shop Men</h5>
+            <ul class="list-unstyled mb-0 forms">
+              <li class="categories">
+                <a href="#" class="categories no-decoration">Clothing Fashion</a>
+              </li>
+              <li class="categories">
+                <a href="#" class="categories no-decoration">Winter</a>
+              </li>
+              <li class="categories">
+                <a href="#" class="categories">Summer</a>
+              </li>
+              <li class="categories">
+                <a href="#" class="categories">Formal</a>
+              </li>
+              <li class="categories">
+                <a href="#" class="categories">Casual</a>
+              </li>
+            </ul>
+          </div>
+
+
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0 forms">
+            <h5 class="text-uppercase forms">Shop Women</h5>
+
+            <ul class="list-unstyled mb-0 categories">
+              <li class="categories">
+                <a href="#" class="categories">Clothing Fashion</a>
+              </li>
+              <li class="categories">
+                <a href="#" class="categories">Winter</a>
+              </li>
+              <li class="categories">
+                <a href="#" class="categories">Summer</a>
+              </li>
+              <li class="categories">
+                <a href="#" class="categories">Formal</a>
+              </li>
+              <li class="categories">
+                <a href="#" class="categories">Casual</a>
+              </li>
+            </ul>
+          </div>
+
+
+
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0 forms">
+            <h5 class="text-uppercase forms">Quick Links
+            </h5>
+
+            <ul class="list-unstyled mb-0 forms">
+              <li class="categories">
+                <a href="#!" class="categories">Track Your Order</a>
+              </li>
+              <li class="categories">
+                <a href="#!" class="categories">Support</a>
+              </li>
+              <li class="categories">
+                <a href="#!" class="categories">FAQ</a>
+              </li>
+              <li class="categories">
+                <a href="#!" class="categories">Carrier</a>
+              </li>
+              <li class="categories">
+                <a href="#!" class="categories">About</a>
+              </li>
+              <li class="categories">
+                <a href="#!" class="categories">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!--Grid row-->
+      </section>
+
+      <!-- Section: Links -->
+
+    </div>
+    <!-- Grid container -->
+
+    <hr class="trending" />
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgb(0, 0, 0); color: white;">
+      © 2020 Copyright: MDBootstrap.com
+    </div>
+    <!-- Copyright -->
+
+  </footer>
+
+  <script src="bootstrap-5.2.3-dist/js/bootstrap.bundle.js"></script>
+
+</body>
+
+</html>

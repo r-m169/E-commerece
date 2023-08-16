@@ -1,0 +1,577 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bitter:wght@100&family=Fraunces:opsz,wght@9..144,700&family=Montserrat:ital,wght@0,200;0,400;0,700;1,100&family=PT+Serif:ital,wght@0,400;0,700;1,700&family=Poppins&family=Rubik&family=Ruwudu&family=Victor+Mono:wght@100;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bitter:wght@100&family=Dancing+Script&family=Fraunces:opsz,wght@9..144,700&family=Montserrat:ital,wght@0,200;0,400;0,700;1,100&family=PT+Serif:ital,wght@0,400;0,700;1,700&family=Poppins&family=Rubik&family=Ruwudu&family=Victor+Mono:wght@100;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+}
+
+/* Navbar style  */
+.navbar-brand {
+    margin-left: 30px;
+    margin-top: -0.5%;
+
+}
+
+.navbar-nav {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    gap: 30px;
+
+}
+
+.navBar {
+    margin-top: -0.99%;
+
+}
+
+.navbar-nav .nav-item {
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link.active:hover,
+.navbar-nav .nav-link:hover {
+    color: red;
+}
+
+.navbar-nav .nav-link i.bi {
+    font-size: 24px;
+
+}
+
+
+.notification {
+    position: relative;
+    top: -24px;
+    left: -11px;
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    border-radius: 50%;
+    padding: 6px;
+}
+
+/* header style */
+.text-muted {
+    text-decoration: none;
+}
+
+.font_size {
+    font-size: 14px;
+}
+
+.header-section a:hover,
+.header-section .header-icons:hover {
+    color: red;
+    text-decoration: none;
+
+}
+
+.movement {
+    margin-top: 12px;
+    margin-left: 112px;
+}
+
+.movement2 {
+    margin-right: 122px;
+}
+
+.icon {
+    margin-top: -0.5%;
+    size: 25%;
+}
+
+/* shop now style */
+.container1 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: black;
+    margin-top: -12px;
+}
+
+.type {
+    text-align: center;
+    /* Center-align the text */
+    margin-top: 25px;
+    color: white;
+    /* background-color: black; */
+    background-color: transparent;
+}
+
+.shop {
+    background-color: black;
+    color: wheat;
+
+}
+
+.shop:hover {
+    color: red;
+}
+
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+
+    background-color: transparent;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    color: #fff;
+    background-color: transparent;
+}
+
+.title1 {
+    background-color: transparent;
+    color: red;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    animation: typingAnimation 3s steps(40) 1s forwards;
+}
+
+.paragraph {
+    background-color: transparent;
+    color: black;
+    font-size: 20px;
+    animation: typingAnimation 3s steps(120) 1s forwards;
+}
+
+.title2 {
+    background-color: transparent;
+    color: black;
+    font-size: 50px;
+    animation: typingAnimation 3s steps(50) 1s forwards;
+}
+
+/* @keyframes typingAnimation {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+ 
+    animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+} */
+
+.btn {
+    background-color: black;
+    width: 150px;
+    height: 50px;
+    border-radius: 2px;
+    color: white;
+}
+
+.btn:hover {
+    background-color: black;
+    width: 150px;
+    height: 50px;
+    border-radius: 2px;
+    color: white;
+}
+
+.one {
+    margin-left: -50%;
+}
+
+.two {
+    margin-right: -30%;
+}
+
+/* Responsive Styles */
+
+@media screen and (max-width: 768px) {
+    .carousel-caption {
+        padding: 10px;
+    }
+
+    .title1 {
+        font-size: 30px;
+    }
+
+    .paragraph {
+        font-size: 16px;
+    }
+
+    .title2 {
+        font-size: 40px;
+    }
+
+    .btn {
+        width: 120px;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .btn:hover {
+        width: 120px;
+        height: 40px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .carousel-caption {
+        padding: 5px;
+    }
+
+    .title1 {
+        font-size: 24px;
+    }
+
+    .paragraph {
+        font-size: 10px;
+    }
+
+    .title2 {
+        font-size: 20px;
+    }
+
+    .btn {
+        width: 100px;
+        height: 30px;
+        font-size: 12px;
+    }
+
+    .btn:hover {
+        width: 100px;
+        height: 30px;
+        font-size: 12px;
+    }
+}
+
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    /* Adjust the height as needed */
+}
+
+/* Fashion section */
+.card-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.card-inner {
+    position: relative;
+}
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.card-img-top {
+    width: 100%;
+    transition: transform 0.3s ease;
+}
+
+.card-img-top:hover {
+    transform: scale(1.1);
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.overlay-content {
+    /* color: #fff; */
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: transparent;
+    color: beige;
+}
+
+.image-container:hover .overlay {
+    opacity: 1;
+}
+
+/* Trending this week  */
+/* Add this CSS to your style.css file */
+.category-link {
+    color: black;
+    /* Set the initial color */
+    text-decoration: none;
+    position: relative;
+    transition: color 0.3s ease-in-out;
+    /* Add smooth transition */
+}
+
+.category-link::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: red;
+    bottom: -5px;
+    /* Adjust the position of the underline */
+    left: 0;
+    transform: scaleX(0);
+    /* Initially hide the underline */
+    transform-origin: center;
+    transition: transform 0.3s ease-in-out;
+    /* Add smooth transition */
+}
+
+.category-link:hover {
+    color: red;
+    /* Change text color on hover */
+}
+
+.category-link:hover::after {
+    transform: scaleX(1);
+    /* Show the underline on hover */
+}
+
+.trending {
+    width: 84%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8%;
+}
+
+/* products slider  */
+/* Add this CSS to your style.css file */
+.custom-carousel .carousel-inner {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.custom-carousel .carousel-item {
+    transition: transform 0.5s ease-in-out;
+}
+
+.custom-carousel .carousel-item.active {
+    transform: translateX(0);
+}
+
+.custom-carousel .carousel-item-next,
+.custom-carousel .carousel-item-prev {
+    transform: translateX(100%);
+}
+
+.custom-carousel:hover .carousel-item {
+    transition: none;
+}
+
+.cards-wrapper {
+    display: flex;
+    gap: 20px;
+    /* Adjust this value to control the gap between cards */
+    overflow-x: auto;
+}
+
+.row {
+    width: 90%;
+    height: 60%;
+    border: none;
+}
+
+.card {
+
+    border: none;
+}
+
+del {
+    color: rgb(229, 207, 177);
+}
+
+.card-title {
+    font-size: 14px;
+}
+
+@media screen and (max-width: 576px) {
+    .row {
+        width: 60%;
+        height: 30%;
+    }
+
+}
+
+/* reviews */
+
+.reviews {
+    background-color: antiquewhite;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.text-center,
+.carousel-item {
+    background-color: antiquewhite;
+}
+
+.colored {
+    color: black;
+    background-color: antiquewhite;
+}
+
+.previous {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: -150px;
+    /* Adjust this value as needed */
+    z-index: 1;
+    /* Ensure the button appears above the carousel content */
+}
+
+.next {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-right: -150px;
+    /* Adjust this value as needed */
+    z-index: 1;
+    /* Ensure the button appears above the carousel content */
+}
+
+/* Media query for responsiveness */
+@media (max-width: 767px) {
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+.para {
+    text-align: center;
+}
+
+.testimonial-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.testimonial-info {
+    margin-left: 20px;
+    text-align: left;
+}
+
+.tittle {
+    background-color: transparent;
+    padding-bottom: 30px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.tittle1 {
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.latest {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin-top: -6%;
+
+}
+.services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fashion {
+    opacity: 0.5;
+}
+
+.fashion_question {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.fashion_question:hover,
+.readmore:hover {
+    color: red;
+}
+
+.readmore {
+    color: #000;
+}
+/* footer */
+.footer_colored{
+    color: #000000;
+    background-color: #000;
+}
+.footer_colored_inner{
+    background-color: #000;
+}
+.social-media{
+    background-color: #000;
+    color: white;
+}
+.social-media:hover{
+    color: red;
+}
+.forms{
+    background-color: #000;
+    color: white;
+}
+.forms1{
+    background-color: #000;
+    color: white;
+    border: 1px solid red;
+    text-decoration: none;
+}
+.forms1:hover{
+    background-color: red;
+    color: white;
+}
+.categories{
+    background-color: #000;
+   color: grey;
+   text-decoration: none;
+}
+.categories:hover{
+color: red;
+}
+.image{
+    background-color: #000;
+    color: white;
+}
